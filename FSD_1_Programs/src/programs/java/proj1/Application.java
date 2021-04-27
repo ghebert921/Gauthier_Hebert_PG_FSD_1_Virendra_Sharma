@@ -9,9 +9,9 @@ public class Application {
 	 public static void main(String args[]) throws IOException {
 		 System.out.println("Welcome To LockedMe.com");
 		 System.out.println("Please select one of the following three options:");
-		 System.out.println("Option 1: View current files");
-		 System.out.println("Option 2: Add, delete, or search files");
-		 System.out.println("Option 3: Close Application");
+		 System.out.println("1: View current files");
+		 System.out.println("2: Add, delete, or search files");
+		 System.out.println("3: Close Application");
 		 System.out.print("Please press 1, 2, or 3 corresponding to the respective option: ");
 		 Scanner option = new Scanner(System.in);
 		 int optionInt = option.nextInt();
